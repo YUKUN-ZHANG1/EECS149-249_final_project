@@ -1,7 +1,7 @@
 # EECS149-249_final_project
 4 person final project for berkeley eecs149/249 
 
-##Project Goal
+## Project Goal
 
 We will develop a small, automated sorting line-following robot. It will use a mechanical gripper to pick up objects, determine whether the object is made of iron, wood, or another material based on pressure and temperature measurements, and then transport it to the corresponding drop-off location.
 
