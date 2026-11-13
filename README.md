@@ -1,6 +1,13 @@
 # EECS149-249_final_project
 4 person final project for berkeley eecs149/249 
 
+##Project Goal
+
+We will develop a small, automated sorting line-following robot. It will use a mechanical gripper to pick up objects, determine whether the object is made of iron, wood, or another material based on pressure and temperature measurements, and then transport it to the corresponding drop-off location.
+
+The pressure sensor on the gripper will be used to confirm whether an object has been successfully grasped. A heating element on one side will maintain a temperature slightly higher than the ambient temperature; by measuring the temperature change after contact with an object, it will determine the object’s thermal conductivity, while a temperature sensor on the other side will measure the object’s initial temperature. Additionally, we will use Hall-effect sensors to detect the gripper’s position and, by combining this data with pressure readings and analyzing the relationship between the gripper’s closure and gripping force, determine whether the object is soft. The robot will use infrared sensors for black-line line-following navigation.
+
+
 ## References
 
 The thermal material classification approach in this project is informed by the following research:
